@@ -94,17 +94,4 @@ Student.remove = (id, result) => {
   });
 };
 
-// Student.removeAll = result => {
-//   sql.query("DELETE FROM students", (err, res) => {
-//     if (err) {
-//       console.log("error: ", err);
-//       result(null, err);
-//       return;
-//     }
-
-//     console.log(`deleted ${res.affectedRows} students`);
-//     result(null, res);
-//   });
-// };
-
 module.exports = Student;
